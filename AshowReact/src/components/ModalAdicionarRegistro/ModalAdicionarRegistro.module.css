@@ -1,0 +1,60 @@
+.container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.conteudo {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px
+}
+
+select {
+    height: 40px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.sinopse {
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.inputDuracao {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.exemploDuracao{
+ color: gray;
+}
+
+.botoes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btnAdicionar {
+    background-color: rgb(5, 145, 52);;
+}

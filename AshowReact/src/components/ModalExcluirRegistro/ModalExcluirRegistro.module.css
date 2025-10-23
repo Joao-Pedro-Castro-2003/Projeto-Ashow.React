@@ -1,0 +1,50 @@
+/* Faz o fundo cobrir toda a tela */
+.container {
+    position: fixed;
+    /* fica fixo sobre toda a tela */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    /* fundo escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+    /* garante que fique por cima de tudo */
+}
+
+/* Caixa do modal */
+.content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btnCancelar {
+    background: grey;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnExcluir {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario {
+    width: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.450);
+    padding: 20px;
+    background-image: linear-gradient(to top, rgb(0, 0, 164), purple);
+}
+
+label {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: medium;
+}
+
+button {
+    background-color: gray;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.link {
+    margin-top: 20px;
+    color: white;
+}
